@@ -1,0 +1,89 @@
+body {
+	background: url(../images/main-bg.png) 0 0 no-repeat;
+	background-size: cover;
+	font-family: 'Aria', sans-serif;
+	font-size: 13px;
+	line-height: 1.5em;
+	color: #7A7B7F;
+}
+.ba-daily-form {
+	width: 460px;
+	margin: 61px auto 0;
+	background-color: #fff;
+	border-radius: 4px;
+	padding-bottom: 61px;
+}
+.ba-daily-form__body {
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 27px;
+}
+.ba-daily-form__icon {
+	vertical-align: middle;
+}
+.ba-daily-form__create {
+	display: inline-block;
+	font-size: 24px;
+	margin: 0;
+	color: #1B1C1D;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.ba-daily-form__join {
+	margin: 15px 0 34px;
+	width: 99%;
+}
+.ba-daily-form__field-small {
+	width: 193px;
+	height: 40px;
+}
+.ba-daily-form__field-large {
+	width: 400px;
+	height: 40px;
+}
+.ba-daily-form__field {
+	border: none;
+	outline: none;
+	background-color: #F0F0F0;
+	border-radius: 4px;
+	font-size: 14px;
+	padding-left: 15px;
+}
+.ba-daily-form__field-small +
+.ba-daily-form__field-small {
+	margin-left: 10px;
+}
+.ba-daily-form__field {
+	margin-bottom: 14px;
+}
+.ba-daily-form__button {
+	width: 400px;
+	height: 50px;
+	border: none;
+	outline: none;
+	background-color: #EA355A;
+	border-radius: 4px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700;
+	box-shadow: 0 -3px rgb(189,25,18) inset;
+	transition: 0.2s;
+}
+.ba-daily-form__button:hover {
+	cursor: pointer;
+	background-color: rgb(189,25,18);
+}
+.ba-daily-form__terms {
+	margin: 0;
+	margin-top: 26px;
+	font-size: 12px;
+	width: 99%;
+}
+.ba-daily-form__link {
+	text-decoration: none;
+	color: #EA355A;
+	transition: 0.2s;
+}
+.ba-daily-form__link:hover {
+	color: #1B1C1D;
+}
